@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css'>
+  <link rel="stylesheet" href="css/index.css">
+  <title>Tienda Online</title>
+</head>
+<body>
+  
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <img src="img/cart.svg" width="60" height="110" alt="un carrito de compras">
+        </li>
+        <li>
+          <a href="">Productos</a>
+        </li>
+        <li>
+          <a href="">Lista de Deseados</a>
+        </li>
+        <li>
+          <a href="">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="productos">
+
+      <h2>Productos</h2>
+      <button class="button" onclick="showProducts()">
+        Mostrar Productos
+      </button>
+
+      <button class="button" onclick="insertDOM()">
+        Insertar Productos
+      </button>
+
+    </section>
+
+    <!--Inicio de la sección inicial de presentación-->
+    <section>
+      <div class="inicio_container">
+        <div class="inicio_texto">
+          <h2>Super Mega Market</h2>
+          <p class="texto_principal">
+            <h2>Compre desde su casa a cualquier lugar del mundo aprovechando las mejores ofertas y con envío gratis</h2>
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section>
+      <h2 class="form_titulo">Contacto</h2>
+      <div class="form_container">
+        <form id="my_form"
+          action="https://formspree.io/f/mlderzlj"
+          method="POST"
+        >
+      <label>
+      Email:
+      <input id="correo" type="email" name="correo"
+       placeholder="Ingrese su email" required>
+      </label>
+      <label>
+        Nombre:
+        <input id="nombre" type="text" name="nombre" placeholder="Ingrese su nombre" id="nombre" required>
+      </label>
+      <label>
+      Mensaje:
+      <textarea id="mensaje" rows="5" name="mensaje" required></textarea>
+      </label>
+      <!-- your other form fields go here -->
+      <button type="submit">Enviar</button>
+      </form>
+      </div>
+    </section>
+
+    <section>
+      <h2>Sección de Productos (Flex)</h2>
+      <div class="card-container">
+        <div class="card">
+            <img src="https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg" alt="Card 1">
+            <h2>Disco Sólido</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="card">
+            <img class="card_img" src="https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg" alt="Card 1">
+            <h2>Monitor Full HD</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="card">
+            <img src="https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg" alt="Card 1">
+            <h2>Monitor Curvo QLED</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <!-- Repeat the card structure for more items -->
+      </div>
+    </section>
+    <hr>
+    <section>
+      <h2>Sección de Comentarios (Grid)</h2>
+    </section>
+  </main>
+
+  <footer class="gradiente">
+    <div>Creado por Nicolás Rivera</div>
+    <div>
+      <i class="wsp fi fi-brands-whatsapp"> 1122334455</i>
+      <i class="fi fi-brands-github">
+        <a href="">Link</a>
+      </i>
+    </div>
+
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
