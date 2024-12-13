@@ -198,3 +198,16 @@ input[type=submit]:hover {
   font-weight: bolder;
   cursor: pointer;
 }
+
+.description {
+  display: none;
+  border: 1px solid black;
+  background-color:  #a8c3d2 ;
+  color: #032205;
+  border-radius: 24px;
+  padding: 1rem;
+}
+
+.card button {
+
+}

@@ -1,0 +1,24 @@
+{
+  "id" : 1111,
+  "name" : "Monitor 24 FHD",
+  "price" : 50.99,
+  "description" : "El monitor ofrece una excelente resolución de imagen y calidad, siendo ideal para juegos gracias a su alta tasa de refresco. Su diseño robusto y minimalista, junto con la facilidad de ajuste de colores, mejora la experiencia visual."
+},
+{
+  "id" : 2222,
+  "name" : "Memoria RAM 32GB",
+  "price" : 30.99,
+  "description" : "Esta es una descripción extensa del producto"
+},
+{
+  "id" : 3333,
+  "name" : "Placa de Video 1gb",
+  "price" : 32.99,
+  "description" : "Esta es una descripción extensa del producto"
+},
+{
+  "id" : 4444,
+  "name" : "Ryzen 7 8500",
+  "price" : 50.99,
+  "description" : "Es ideal para jugadores y creadores de contenido que requieran un instrumento de gran ejecución.Memoria caché de rápida y volátil.Procesador gráfico AMD Radeon"
+}

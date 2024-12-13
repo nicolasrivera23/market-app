@@ -12,12 +12,4 @@ Colores para los iconos
 
 **
 
-** Faltan **
-Acomodar el tamaño del logo , efecto hover en links del menu.
-paleta de colores.
-Agregar parches / sellos de envio gratis y ofertas.
 
-Mejorar el estilo del formulario.
-
-Agregar sección grid.
-Agregar vars css
